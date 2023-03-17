@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.BufferedWriter;
+import java.time.LocalDate;
 
 public class Principal {
 
@@ -14,7 +15,8 @@ public class Principal {
 		Empleado empleado3 = new Empleado("Jimena", "Perez", "Tecnica", "25000");
 
 		try {
-			String ruta = "C:\\\\Users\\\\mgarciaalv\\\\Documents\\\\CURSOS\\\\empleados.txt";
+			LocalDate fecha = LocalDate.now();
+			String ruta = "C:\\\\Users\\\\mgarciaalv\\\\Documents\\\\CURSOS\\\\info_empleados_"+fecha+".txt";
 
 			String contenido = empleado1.getNombre() + empleado1.getApellido() + "\n" + empleado1.getPosicion() + "\n"
 					+ empleado1.getSueldo() + "\n" + "\n";
