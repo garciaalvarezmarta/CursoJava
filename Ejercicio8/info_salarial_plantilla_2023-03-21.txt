@@ -1,0 +1,50 @@
+
+--EMPLEADO 1-- 
+ Nombre:Alfonso
+ Apellido: Diaz
+ Dni:98765432L
+ Edad:44
+ Localidad: Toledo
+ Salario: 50000
+ Puesto: Ingeniero de Software
+ Antiguedad: 16
+
+--EMPLEADO 2-- 
+ Nombre:Juan
+ Apellido: Perez
+ Dni:05678944Q
+ Edad:39
+ Localidad: Madrid
+ Salario: 35000
+ Puesto: Desarrollador
+ Antiguedad: 12
+
+--EMPLEADO 3-- 
+ Nombre:Elena
+ Apellido: García
+ Dni:34568976S
+ Edad:33
+ Localidad: Teruel
+ Salario: 40000
+ Puesto: Tech Lider
+ Antiguedad: 3
+
+--EMPLEADO 4-- 
+ Nombre:Cristina
+ Apellido: González
+ Dni:12345678P
+ Edad:33
+ Localidad: Huelva
+ Salario: 30000
+ Puesto: Project Manager
+ Antiguedad: 2
+
+--EMPLEADO 5-- 
+ Nombre:Juan
+ Apellido: Perez
+ Dni:05678944Q
+ Edad:39
+ Localidad: Madrid
+ Salario: 35000
+ Puesto: Desarrollador
+ Antiguedad: 12
