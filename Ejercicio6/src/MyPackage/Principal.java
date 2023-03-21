@@ -14,16 +14,16 @@ public class Principal {
 		Set<String> verduras = new HashSet<>();
 		Map<String,Integer> meses = new HashMap<>();
 		
-		frutas.set(0, "plátano");
-		frutas.set(1, "fresa");
-		frutas.set(2, "melocotón");
-		frutas.set(3, "uva");
-		frutas.set(4, "manzana");
-		frutas.set(5, "pera");
-		frutas.set(6, "maracuyá");
-		frutas.set(7, "granada");
-		frutas.set(8, "pomelo");
-		frutas.set(9, "naranja");
+		frutas.add("plátano");
+		frutas.add("fresa");
+		frutas.add("melocotón");
+		frutas.add("uva");
+		frutas.add("manzana");
+		frutas.add("pera");
+		frutas.add("maracuyá");
+		frutas.add("granada");
+		frutas.add("pomelo");
+		frutas.add("naranja");
 		
 		verduras.add("Lechuga");
 		verduras.add("Tomate");
