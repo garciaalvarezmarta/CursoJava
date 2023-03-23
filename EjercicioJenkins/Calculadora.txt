@@ -1,0 +1,22 @@
+stages{
+    stage("CALCULADORA"){
+        steps{
+            script{
+                def num1=25
+                def num2=5
+                def suma= num1+num2
+                def resta=num1-num2
+                def multi=num1*num2
+                def div=num1/num2
+                
+                println "SUMA" + suma
+                println "RESTA" + resta
+                println "MULTIPLICACIÓN" + multi
+                println "DIVISIÓN" + div
+                
+                
+            }
+        }
+        
+    }
+}
