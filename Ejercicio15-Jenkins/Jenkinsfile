@@ -11,7 +11,7 @@ pipeline{
                 def multi=num1*num2
                 def div=num1/num2
                 def contenido= "Calculadora \n" + "\n Suma: " + suma + "\n Resta: " + resta + "\n Multiplicación: " + multi + "\n División: " + div
-                writeFile(file:"C:\\Users\\mgarciaalv\\Documents\\Jenkins\\calculatorcJenkinsGit.txt")
+                writeFile(file:"C:\\Users\\mgarciaalv\\Documents\\Jenkins\\calculatorcJenkinsGit.txt",text:contenido)
             }
         }
         
