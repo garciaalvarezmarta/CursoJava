@@ -12,7 +12,7 @@ pipeline{
                 def div=num1/num2
                 def contenido= "Calculadora \n" + "\n Suma: " + suma + "\n Resta: " + resta + "\n Multiplicación: " + multi + "\n División: " + div
                 writeFile(file:"C:\\Users\\mgarciaalv\\Documents\\Jenkins\\calculatorcJenkinsGit.txt",text:contenido)
-                def data=readFile(file:C:\\Users\\mgarciaalv\\eclipse-workspace\\EjerciciosCursoJava\\Ejercicio15-Jenkins\\calculatorcJenkinsGit.txt)
+                def data=readFile(file:"C:\\Users\\mgarciaalv\\eclipse-workspace\\EjerciciosCursoJava\\Ejercicio15-Jenkins\\calculatorcJenkinsGit.txt")
                 println data
             }
         }
