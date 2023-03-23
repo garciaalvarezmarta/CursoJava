@@ -1,4 +1,6 @@
-stages{
+pipeline{
+    agent any
+    stages{
     stage("CALCULADORA"){
         steps{
             script{
@@ -13,10 +15,9 @@ stages{
                 println "RESTA" + resta
                 println "MULTIPLICACIÓN" + multi
                 println "DIVISIÓN" + div
-                
-                
             }
         }
         
     }
+}
 }
