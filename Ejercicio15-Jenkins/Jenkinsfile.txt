@@ -1,0 +1,20 @@
+pipeline{
+    agent any
+    stages{
+    stage("CALCULADORA"){
+        steps{
+            script{
+                def num1=25
+                def num2=5
+                def suma= num1+num2
+                def resta=num1-num2
+                def multi=num1*num2
+                def div=num1/num2
+                def contenido= "Calculadora \n" + "\n Suma: " + suma + "\n Resta: " + resta + "\n Multiplicación: " + multi + "\n División: " + div
+                writeFile(file:"C:\\Users\\mgarciaalv\\Documents\\Jenkins\\calculatorcJenkinsGit.txt")
+            }
+        }
+        
+    }
+}
+}
