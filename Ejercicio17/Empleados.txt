@@ -1,0 +1,3 @@
+Nombre 	 Apellido 	 Edad 
+Marta 	García 	23
+Pepe 	Pérez 	32
