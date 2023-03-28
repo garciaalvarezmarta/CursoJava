@@ -1,0 +1,5 @@
+En base al siguiente archivo plano armar un archivo de salida que informe lo siguiente:
+1. Agrupar por año y mostrar la plata recaudada
+2. TOP 3 de peliculas con mayor recaudación
+3. Identificar el año que mas plata recaudo
+4. Lista ordenada de peliculas alfabeticamente
