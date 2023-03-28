@@ -30,8 +30,6 @@ public class Principal {
 		e1.cierrePrograma(contexto);
 		e2.cierrePrograma(contexto2);
 		
-		e1.finalizacion();
-		contexto.close();
 	}
 
 }
