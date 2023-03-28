@@ -33,7 +33,7 @@ public class Principal {
 			
 			for(int i=0;i<t.getSize();i++) {
 				Producto prod = t.getPos(i);
-				contenido=contenido+prod.getTipo()+" \t"+prod.getPrecioUnitario()+" \t"+prod.getPrecioFinal()+" \t"+prod.getNumVentas()+" \t"+prod.promedioVentas()+"\n";
+				contenido=contenido+prod.getTipo()+" \t"+prod.getPrecioUnitario()*prod.getNumVentas()+" \t"+prod.getPrecioFinal()*prod.getNumVentas()+" \t"+prod.getNumVentas()+" \t"+prod.promedioVentas()+"\n";
 			}
 			
 			FileWriter fw = new FileWriter(archivoFinal);
