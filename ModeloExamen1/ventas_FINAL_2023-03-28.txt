@@ -1,6 +1,6 @@
 DESCRIPCION 	 PRECIO_UNITARIO 	 PRECIO+IVA 	 CANTIDAD_VENDIDA_TOTAL 	 PROMEDIO 
-Remera 	5 	6.05 	100 	0
-Camisa 	15 	18.15 	50 	0
-Vestido 	25 	30.25 	20 	0
-Pantalon 	20 	24.2 	10 	0
-Sweater 	15 	18.15 	5 	0
+Remera 	500 	605.0 	100 	0
+Camisa 	750 	907.4999999999999 	50 	0
+Vestido 	500 	605.0 	20 	0
+Pantalon 	200 	242.0 	10 	0
+Sweater 	75 	90.75 	5 	0
