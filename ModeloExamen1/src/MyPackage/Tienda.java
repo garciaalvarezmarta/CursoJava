@@ -3,7 +3,7 @@ package MyPackage;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Tienda {
+public class Tienda implements ITienda{
 
 	private int totalVentas;
 	private List <Producto> productosVendidos;

@@ -2,7 +2,7 @@ package MyPackage;
 
 import java.time.LocalDate;
 
-public class Producto extends Tienda{
+public class Producto extends Tienda implements IProducto{
 	
 	private String tipo;
 	private int precioUnitario;
